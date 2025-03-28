@@ -18,14 +18,15 @@
             flex-direction: column; /* Stack items vertically */
             color: #fff; /* White text color for better visibility on black background */
         }
-        h1 {
-            color: #fff; /* White text color */
-            text-align: center;
-            margin-bottom: 10px; /* Add some space between the text and the emoji */
+        #logo {
+            width: auto; /* Maintain aspect ratio */
+            height: 28.28vh; /* Set height to 28.28% of viewport height (square root of 800) */
+            max-width: 100%; /* Ensure it doesn't exceed the screen width */
+            max-height: 100%; /* Ensure it doesn't exceed the screen height */
         }
         p {
             text-align: center; /* Center the emoji */
-            font-size: 2em; /* Adjust the size as needed */
+            font-size: 2em; /* Adjust the size of the emoji as needed */
             margin-top: 0; /* Remove default margin */
             margin-bottom: 10px; /* Add space below the tennis ball emoji */
         }
@@ -46,7 +47,7 @@
     </style>
 </head>
 <body>
-    <h1>Backyard Tennis</h1>
+    <img id="logo" src="backyard_tennis_logo.png" alt="Backyard Tennis Logo">
     <p>&#127915;</p>
     <div class="social-links">
         <a href="https://www.youtube.com/channel/UC9bWfX4BDa6Sze_Ao5IqR1g" target="_blank">
