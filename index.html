@@ -20,15 +20,13 @@
         }
         #logo {
             width: auto; /* Maintain aspect ratio */
-            height: 28.28vh; /* Set height to 28.28% of viewport height (square root of 800) */
+            height: 56.57vh; /* Set height to 56.57% of viewport height (square root of 3200) */
             max-width: 100%; /* Ensure it doesn't exceed the screen width */
             max-height: 100%; /* Ensure it doesn't exceed the screen height */
+            margin-bottom: 20px; /* Add some space between the logo and the social links */
         }
         p {
-            text-align: center; /* Center the emoji */
-            font-size: 2em; /* Adjust the size of the emoji as needed */
-            margin-top: 0; /* Remove default margin */
-            margin-bottom: 10px; /* Add space below the tennis ball emoji */
+            display: none; /* Remove the tennis ball emoji */
         }
         .social-links {
             display: flex;
@@ -41,14 +39,13 @@
             display: inline-block; /* Ensure images are displayed correctly */
         }
         .social-links img {
-            width: 3em; /* Adjust the size of the social icons */
-            height: auto;
+            width: 4em; /* Adjust the size of the social icons */
+            height: 4em; /* Ensure both logos have the same height */
         }
     </style>
 </head>
 <body>
     <img id="logo" src="backyard_tennis_logo.png" alt="Backyard Tennis Logo">
-    <p>&#127915;</p>
     <div class="social-links">
         <a href="https://www.youtube.com/channel/UC9bWfX4BDa6Sze_Ao5IqR1g" target="_blank">
             <img src="youtube_logo.png" alt="YouTube">
@@ -59,3 +56,4 @@
     </div>
 </body>
 </html>
+
